@@ -31,7 +31,7 @@ containing the solution to check.
 Example:
 --------
 
-#include "sudoku_check.cc"
+`#include "sudoku_check.cc"
 #include "vector"
 
 // create a 9 x 9 solution matrix containing all 0's
@@ -40,5 +40,5 @@ std::vector<std::vector<int>> solution( 9, std::vector(9, 0) );
 // pass the matrix to the SSC
 bool isValidSolution = valid_sudoku( solution );
 
-// isValidSolution == false
+// isValidSolution == false`
 
